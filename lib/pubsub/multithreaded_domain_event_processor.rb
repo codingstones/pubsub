@@ -1,3 +1,5 @@
+require 'concurrent'
+
 module Pubsub
   class MultiThreadedDomainEventProcessor < DomainEventProcessor
     def initialize(domain_event_listener, serializer, logger)
