@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require "pubsub/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "codingstones_pubsub"
+  spec.name          = "codingstones-pubsub"
   spec.version       = Pubsub::VERSION
   spec.authors       = ["The Coding Stones"]
   spec.email         = ["yeah@codingstones.com"]
